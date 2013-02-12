@@ -3,7 +3,7 @@ geddy-coffee-templates
 
 Contains coffee templates for geddy
 
-__Disclaimer:__ This is __work in progress__ and __experimental__. The main purpose of this project at this stage is to test a new `template` switch in geddy's cli. The following is just the expected usage. geddy-*-templates aren't working in geddy, available on NPM, might not even contain real templates and coffee or other template features might not be supported by geddy.
+__Disclaimer:__ This is __work in progress__ and __experimental__. The main purpose of this project at this stage is to test a new `template` switch in geddy's cli. The following is just the expected usage. geddy-*-templates aren't working in geddy, available on NPM, might not even contain real templates and some template features might not be supported by geddy.
 
 
 ## Using from NPM
