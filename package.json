@@ -1,13 +1,12 @@
 {
   "name": "geddy-coffee-templates",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Miguel Madero <node@miguelmadero.com>",
   "description": "coffee templates for geddy",
   "repository": {
     "type": "git",
     "url": "https://github.com/MiguelMadero/geddy-coffee-templates"
   },
-  "preferGlobal": true,
   "keywords": [
     "geddy",
     "coffee",
