@@ -1,6 +1,6 @@
 {
   "name": "geddy-coffee-templates",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Miguel Madero <node@miguelmadero.com>",
   "description": "coffee templates for geddy",
   "repository": {
