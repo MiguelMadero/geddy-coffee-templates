@@ -9,7 +9,9 @@ __Disclaimer 2:__ Some template features might not be supported by geddy and the
 
 ## Trying Coffee Tempaltes
 
-geddy-*-templates are only working in geddy's **[switchable-template-support branch](https://github.com/mde/geddy/tree/switachable-template-support)**. Get the code from there and run `make && sudo make install`. Keep in mind this will replace your current geddy version, to uninstall you will have to `sudo make uninstall && npm install geddy -g && npm update -g`. Once you have geddy installed try any of the following options. 
+geddy-*-templates are only working in geddy's **[switchable-template-support branch](https://github.com/mde/geddy/tree/switachable-template-support)**. Get the code from there and simply replace `geddy` for `node /path/to/geddy/bin/cli.js` in all the commands or install from this branch by running `make && sudo make install`. Keep in mind this will replace your current geddy version. To uninstall it and go back to NPM's version run `sudo make uninstall && npm install geddy -g && npm update -g`. 
+
+ Once you have geddy installed try any of the following options. 
 
 At the moment only generating a base application is supported (`app` command). Scaffold, model, or other commands supported by the [cli](http://geddyjs.org/documentation#CLI) are still not supported by geddy-coffee-templates.
 
