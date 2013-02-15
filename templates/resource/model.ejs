@@ -1,0 +1,26 @@
+<%= names.constructor.singular %> = ->
+<%
+var propertyOutput = [],
+    currentProperty;
+
+for (var i in properties) {
+  if (properties[i].name && properties[i].name !== "id") {
+    currentProperty = properties[i].name + ":"
+    currentProperty += "\n      type: '" + properties[i].type + "'";
+
+    if (i === "default") {
+      currentProperty += "\n      required: true";
+    }
+
+    propertyOutput.push(currentProperty);
+  }
+}
+%>  @defineProperties
+    <%- propertyOutput.join("\n    "); %>
+<% for(var i in properties) { -%>
+<% if(properties[i].name === 'id' && properties[i].type === 'int') { -%>
+  autoIncrementId = true
+<% } -%>
+<% } -%>
+
+<%= names.constructor.singular %> = geddy.model.register '<%= names.constructor.singular %>', <%= names.constructor.singular %>
